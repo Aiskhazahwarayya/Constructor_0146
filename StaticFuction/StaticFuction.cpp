@@ -4,9 +4,9 @@ using namespace std;
 class mahasiswa
 {
 private:
-	static int nim;
+	long long static int nim;
 public:
-	int id;
+	long long int id;
 	string nama;
 
 	void setID();
@@ -21,3 +21,5 @@ public:
 		setID();
 	}
 };
+
+
