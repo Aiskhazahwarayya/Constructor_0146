@@ -35,3 +35,16 @@ void mahasiswa::printAll()
 	cout << "Nama = " << nama << endl;
 	cout << endl;
 }
+
+int main() {
+	mahasiswa mhs1("Aiskha");
+	mahasiswa mhs2("Rayya");
+	mahasiswa::setNim(20230140146);
+	mahasiswa mhs3("Hanun");
+	mahasiswa mhs4("Nasywa");
+
+	mhs1.printAll();
+	mhs2.printAll();
+	mhs3.printAll();
+	mhs4.printAll();
+}
