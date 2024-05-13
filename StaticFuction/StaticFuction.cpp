@@ -22,4 +22,4 @@ public:
 	}
 };
 
-
+long long int mahasiswa::nim = 20230140146;
